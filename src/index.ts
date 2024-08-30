@@ -21,6 +21,7 @@ import {
 } from './v2.js';
 import { type ChatV3Message, type ChatV3Req, type ChatV3Resp, type ChatV3StreamResp, type FileObject } from './v3.js';
 
+// test
 type ConversationResponse = { data: ChatV3Message[]; first_id: string; last_id: string; has_more: boolean };
 
 export class Coze {
